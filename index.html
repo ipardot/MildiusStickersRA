@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>MindAR 3 Targets Demo</title>
+    <title>MindAR 6 Targets Demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- MindAR & A-Frame JS -->
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
@@ -19,16 +19,34 @@
           <img id="tenera" src="tenera.png" />
           <img id="aldro" src="aldro.png" />
           <img id="myx" src="myx.png" />
+          <img id="flori" src="flori.png" />
+          <img id="noxmyx" src="noxmyx.png" />
+          <img id="thalo" src="thalo.png" />
         </a-assets>
 
+        <!-- Proyección para target 0 -->
         <a-entity mindar-image-target="targetIndex: 0">
           <a-image src="#tenera" width="1" height="1" position="0 0 0"></a-image>
         </a-entity>
+        <!-- Proyección para target 1 -->
         <a-entity mindar-image-target="targetIndex: 1">
           <a-image src="#aldro" width="1" height="1" position="0 0 0"></a-image>
         </a-entity>
+        <!-- Proyección para target 2 -->
         <a-entity mindar-image-target="targetIndex: 2">
           <a-image src="#myx" width="1" height="1" position="0 0 0"></a-image>
+        </a-entity>
+        <!-- Proyección para target 3 -->
+        <a-entity mindar-image-target="targetIndex: 3">
+          <a-image src="#flori" width="1" height="1" position="0 0 0"></a-image>
+        </a-entity>
+        <!-- Proyección para target 4 -->
+        <a-entity mindar-image-target="targetIndex: 4">
+          <a-image src="#noxmyx" width="1" height="1" position="0 0 0"></a-image>
+        </a-entity>
+        <!-- Proyección para target 5 -->
+        <a-entity mindar-image-target="targetIndex: 5">
+          <a-image src="#thalo" width="1" height="1" position="0 0 0"></a-image>
         </a-entity>
 
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
